@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grade calculater</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="Screen">
+                <div class="Screen-body">
+                    <div class="Screen-body-item left">
+                        <div class="App-Title">
+                            <div class="animated infinite pulse">
+                            Student <br> Grade <br> Calculater
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="Screen-body-item">
+                        <div class="App-form">
+                            <div class="app-from-group">
+                                <input type="text" class="app-form-control" placeholder='English' id="eng">
+                            </div>
+                            <div class="app-from-group">
+                                <input type="text" class="app-form-control" placeholder='business' id="busi">
+                            </div>
+                            <div class="app-from-group">
+                                <input type="text" class="app-form-control" placeholder='Computer Science' id="IT">
+                            </div>
+                            <div class="app-from-group">
+                                <input type="text" class="app-form-control" placeholder='Accountancy' id="Acc">
+                            </div>
+                            <div class="app-from-group">
+                                <input type="text" class="app-form-control" placeholder='Statistics' id="stat">
+                            </div>
+                            <div>
+                                <input type="button" class="app-form-button" value="ShowPercentage" onclick="calcy()"> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-from-group showdata">
+                    <p id="showdata"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
