@@ -1,5 +1,5 @@
 //write your code here 
-//calculate function
+//calculate function ...
 function calcy(){    
     
     let english = document.getElementById('eng').value;
