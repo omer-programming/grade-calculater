@@ -1,4 +1,6 @@
-function calcy(){
+//write your code here 
+//calculate function ...
+function calcy(){    
     
     let english = document.getElementById('eng').value;
     let business = document.getElementById('busi').value;
